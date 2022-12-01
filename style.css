@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    padding: 0;
 }
 
 .logo_img{
@@ -7,6 +8,18 @@
    
 }
 
+main{
+    height: 65vh;
+    display: flex;
+}
+/* 
+main>div{
+    margin: 0;
+    width: 100%;
+    height: auto;
+} */
+
+/* 
 main p {
     width: 500px;
     text-align: left;
@@ -18,26 +31,88 @@ main h3{
     margin-left: 46em;
     margin-bottom: 2em;
     text-align: center;
+} */
+
+.body_img{
+    flex-basis: 60%;
+    background-image: url(/images/piny.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.types{
+    background-color: #90a78e;
+    height: 80vh;
 }
 
-.body_img, .main_text{
-
-    display: inline-block;
+.cards div{
+    background-color: rgb(131 61 61);
+    border-radius: 6%;
+    height: 100%;
+    margin: 6px;
+    padding-top: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex-grow: 1;
 }
 
+.card p {
+    width: 70%;
+}
+
+
+
+.types header{
+    text-align: center;
+    padding: 80px;
+}
+/* 
+.card>img{
+    width: 50px;
+} */
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main_text{
+
+    flex-basis: 40%;
+    padding: 100px 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_text>h3{
+    margin-bottom:25px ;
+}
+
+/* 
 .body{
     /* background-image: url(/images/blue.jpeg);
     background-position: left;
     background-repeat: no-repeat;
     background-size: contain; */
-    height: 150vh;
-    display: flex;
-    justify-content: center;
+    /* height: 150vh;
+    display: flex; */
+    /* justify-content: center;
     align-items: center;
-    flex-flow: column;
-}
+    flex-flow: column; 
+}*/
 
-header{
+
+.intro{
     height: 100vh;
     background-image: url(/images/bigImage.jpg);
     background-repeat: no-repeat;
